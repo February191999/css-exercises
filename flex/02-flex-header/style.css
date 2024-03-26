@@ -4,6 +4,7 @@
   display: flex;
   justify-content: space-between;
   flex: auto;
+  padding: 10px;
 }
 
 .logo {
