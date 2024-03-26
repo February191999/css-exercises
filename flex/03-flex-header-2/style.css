@@ -23,11 +23,23 @@ body {
   height: 48px;
 }
 
+.keep-left {
+  display: flex;
+}
+
 .logo {
   color: rebeccapurple;
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+}
+
+.links {
+  display: flex;
+}
+
+.stay-right {
+  display: flex;
 }
 
 button {
