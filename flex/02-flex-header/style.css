@@ -3,7 +3,6 @@
   background: papayawhip;
   display: flex;
   justify-content: space-between;
-  flex: auto;
   padding: 10px;
   align-items: center;
 }
