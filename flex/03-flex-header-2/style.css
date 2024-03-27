@@ -45,6 +45,10 @@ body {
   display: flex;
 }
 
+.gap {
+  gap: 16px;
+}
+
 button {
   border: none;
   border-radius: 8px;
