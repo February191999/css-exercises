@@ -26,27 +26,11 @@ body {
   height: 48px;
 }
 
-.keep-left {
-  display: flex;
-}
-
 .logo {
   color: rebeccapurple;
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
-}
-
-.links {
-  display: flex;
-}
-
-.stay-right {
-  display: flex;
-}
-
-.gap {
-  gap: 16px;
 }
 
 button {
@@ -66,4 +50,9 @@ a {
 ul {
   list-style-type: none;
   padding-left: 0;
+}
+
+.keep-left, .stay-right, .links {
+  display: flex;
+  gap: 16px;
 }
