@@ -33,8 +33,7 @@ img {
 
 .main-container {
   gap: 52px;
-  align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .text {
