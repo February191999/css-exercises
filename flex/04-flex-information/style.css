@@ -27,8 +27,14 @@ img {
   background: #eee;
 }
 
-.main-container {
+.main-container, .flex-container {
   display: flex;
+}
+
+.main-container {
+  gap: 52px;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .text {
@@ -36,9 +42,10 @@ img {
 }
 
 .flex-container {
-  display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   min-width: 0px;
   width: 200px;
+  align-items: center;
+  gap: 10px;
 }
