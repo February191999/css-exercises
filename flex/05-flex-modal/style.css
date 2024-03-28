@@ -59,6 +59,10 @@ body {
   padding: 0;
 }
 
+.buttons {
+  display: flex;
+}
+
 button {
   cursor: pointer;
   padding: 8px 16px;
@@ -75,6 +79,11 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.header {
+  font-weight: bold;
+  font-size: larger;
 }
 
 .header-div {
