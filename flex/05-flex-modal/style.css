@@ -22,6 +22,11 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
 }
+ 
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
 
 .icon {
   color: royalblue;
@@ -32,6 +37,7 @@ body {
   height: 42px;
   border-radius: 50%;
   display: flex;
+  flex-shrink: 0;
   align-items: center;
   justify-content: center;
 }
@@ -71,4 +77,5 @@ button.cancel {
 
 .header-div {
   display: flex;
+  justify-content: space-between;
 }
