@@ -60,3 +60,22 @@ a {
 .right-links {
   margin-left: auto;
 }
+
+.footer {
+  background-color: #eeeeee;
+}
+
+.content, .input, .buttons {
+  display: flex;
+}
+
+.content {
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.input, .buttons {
+  flex-direction: row;
+  justify-content: center;
+}
