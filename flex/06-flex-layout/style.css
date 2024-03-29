@@ -31,13 +31,32 @@ input {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-li {
+a {
   text-decoration: none;
+  color: black;
 }
 
 .header, .footer, .left-links, .right-links {
   display: flex;
   flex-direction: row;
+}
+
+.header, .footer {
+  padding: 25px;
+}
+
+.left-links, .right-links {
+  gap: 15px;
+}
+
+.left-links {
+  margin-right: auto;
+}
+
+.right-links {
+  margin-left: auto;
 }
