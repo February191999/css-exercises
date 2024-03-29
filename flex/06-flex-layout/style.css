@@ -19,6 +19,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 10px;
 }
 
 input {
@@ -46,7 +47,7 @@ a {
 }
 
 .header, .footer {
-  padding: 25px;
+  padding: 20px;
 }
 
 .left-links, .right-links {
@@ -78,4 +79,8 @@ a {
 .input, .buttons {
   flex-direction: row;
   justify-content: center;
+}
+
+.buttons {
+  gap: 10px;
 }
