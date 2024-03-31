@@ -43,7 +43,7 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  height: 200px;
+  margin: 16px;
   width: 300px;
   padding: 20px;
 }
@@ -55,6 +55,7 @@ ul {
 
 li {
   list-style-type: none;
+  margin-bottom: 16px;
 }
 
 a {
@@ -66,6 +67,5 @@ a {
 .cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
   padding: 32px;
 }
